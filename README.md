@@ -1,4 +1,4 @@
-# Restaurant Pricing and Consumer Perception DS4002 Data Divas Project 1
+# Restaurant Pricing and Consumer Perception: DS4002 Data Divas Project 1
 ## Software and Platform section
 We used Python to run the majority of our code either in Google Colab or in Rivanna. Platform varied by group member, so we used both Mac and Windows.In order to use Python in the most efficient manner, we used the following additional packages imported with this code: 
 import nltk
