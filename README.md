@@ -13,5 +13,15 @@ from scipy import stats
  I will circle back to this visualization later
 
 ## How to Reproduce Our Results
-I will also circle back to this in a second
+**Step 1: Data Collection**
+To analyze restaurant reviews, we used the Yelp Open Dataset, containing information about many businesses, including user-generated ratings. We will store the cleaned dataset in csv format for further processing.
+**Step 2: Exploratory Data Analysis & Cleaning**
+The Yelp Dataset is an amalgamation of lots of customer reviews across all sorts of businesses from a wide variety of locations. Start by narrowing down the data to only include restaurants in the Philadelphia, PA area which have information about the restaurants’ price points and customer reviews. Then, clean the dataset. Handle missing values, remove any duplicates, and filter out non-restaurant establishments if any made it through your initial filtering. Generate summary statistics and create some visualizations of rating/price distributions to gain a deeper understanding of the preliminary dataset.
+**Step 3: VADER Sentiment Analysis**
+Once you have subsetted and cleaned the data, continue on to perform VADER Sentiment analysis on each resturant in the dataset to determine the average sentiment of their customer reviews. After that, average the restaurants' scores across the price groups (1-4) to compare average sentiment scores.
+**Step 4: Hypothesis Testing**
+After generating average sentiment scores for each price group, perform an ANOVA test to determine whether the mean scores are statistically different. A p-value of <0.05 will indicate that you can reject your null hypothesis (that each group has the same average sentiment). After ANOVA testing, continue on to perform Spearman Rank Correlation to measure the strength and direction of the correlation.
+**Step 5: Conclusions**
+Draw conclusions based on your data and statistical analysis.
+
 
