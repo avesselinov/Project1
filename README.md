@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from scipy import stats
 
-## Documentation Map
+
 ![Sitemap Whiteboard in Green Purple Basic Style](https://github.com/user-attachments/assets/b7e7b1e1-0a44-43da-b046-4566efb14e8c)
 
 
