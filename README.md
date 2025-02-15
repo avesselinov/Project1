@@ -2,7 +2,7 @@
 ## Software and Platform section
 We used Python to run the majority of our code either in Google Colab or in Rivanna. Platform varied by group member, so we used both Mac and Windows.In order to use Python in the most efficient manner, we used the following additional packages imported with this code: nltk, pandas, numpy, seaborn, matplotlib.pyplot, plotly.express, nltk.sentiment.vader, and scipy. 
 
-![Sitemap Whiteboard in Green Purple Basic Style](https://github.com/user-attachments/assets/8c632622-9725-44d8-ab44-cd8d23c8d66e)
+![Sitemap Whiteboard in Green Purple Basic Style](https://github.com/user-attachments/assets/6e50bbda-b9f5-4325-af01-423ff2f7bb40)
 
 
 ## How to Reproduce Our Results
